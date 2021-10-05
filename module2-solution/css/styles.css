@@ -4,6 +4,12 @@
   
 }
 
+body{
+  height: 100vh;
+  /*background: linear-gradient(#732673, #4d0039);*/
+  background: linear-gradient(  #009999, #0f3e3e);
+}
+
 
 .container{
     border: 2px solid black;
