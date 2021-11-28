@@ -1,0 +1,305 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+    font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body, html {
+	height: 100%;
+    font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+    font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+
+input {
+	outline: none;
+	border: none;
+}
+
+input::-webkit-input-placeholder { color: #adadad;}
+input:-moz-placeholder { color: #adadad;}
+input::-moz-placeholder { color: #adadad;}
+input:-ms-input-placeholder { color: #adadad;}
+
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+
+
+/*---------------------------------------------*/
+.container {
+	max-width: 1200px;
+}
+
+.bg1 {background-color: #f7f7f7;}
+
+
+.container-contact100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  /* background: #e6e6e6; */
+  background: rgba(111, 66, 193, 0.1)
+  
+}
+
+.wrap-contact100 {
+  width: 920px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 62px 55px 90px 55px;
+}
+
+
+.contact100-form {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact100-form-title {
+  display: block;
+  width: 100%;
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 39px;
+  /* color: #333333; */
+  color: #6f42c1;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 59px;
+}
+
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 13px;
+  padding: 10px 30px 9px 22px;
+  margin-bottom: 20px;
+}
+
+.rs1-wrap-input100 {
+  width: calc((100% - 30px) / 2);
+}
+
+.label-input100 {
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 10px;
+  color: #393939;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.input100 {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.2;
+  padding-right: 15px;
+}
+
+
+input.input100 {
+  height: 40px;
+}
+
+
+textarea.input100 {
+  min-height: 120px;
+  padding-top: 9px;
+  padding-bottom: 13px;
+}
+
+
+.input100:focus + .focus-input100::before {
+  width: 100%;
+}
+
+.has-val.input100 + .focus-input100::before {
+  width: 100%;
+}
+
+.container-contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  width: 30%;
+  margin: auto;
+}
+
+.contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #6f42c1;
+  border-radius: 25px;
+
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.2;
+
+}
+
+.contact100-form-btn:hover {
+  background-color: #845eca;
+}
+
+@media (max-width: 768px) {
+  .rs1-wrap-input100 {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .wrap-contact100 {
+    padding: 62px 15px 90px 15px;
+  }
+
+  .wrap-input100 {
+    padding: 10px 10px 9px 10px;
+  }
+}
+
+.wrap-contact100-form-radio {
+  width: 100%;
+  padding: 15px 25px 0 25px;
+}
+
+.contact100-form-radio {
+  padding-bottom: 5px;
+}
+
+.input-radio100 {
+  display: none;
+}
+
+.label-radio100 {
+  display: block;
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.2;
+}
+
+.label-radio100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #cdcdcd;
+  background: #fff;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.label-radio100::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 6px solid transparent;
+  background: #6f42c1;
+  -moz-background-clip: padding;     
+  -webkit-background-clip: padding;  
+  background-clip: padding-box; 
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: none;
+
+}
+
+.input-radio100:checked + .label-radio100::after {
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .wrap-contact100-form-range {
+    padding: 20px 0px 57px 0px;
+  }
+
+  .wrap-contact100-form-radio {
+    padding: 15px 0px 0 0px;
+  }
+}
+
+#day{
+  height: 40px;
+  width: 100%;
+  background: none;
+  outline: none;
+  border:none;
+  padding-left: 15px;
+}

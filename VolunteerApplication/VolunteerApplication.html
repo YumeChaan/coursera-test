@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Volunteer Application</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/VolunteerApplication.css">
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Volunteer Application
+				</span>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+					<span class="label-input100">FULL NAME *</span>
+					<input class="input100" type="text" name="name" placeholder="Enter Your Name">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Address">
+					<span class="label-input100">Address *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter Your Address">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Age">
+					<span class="label-input100">Age *</span>
+					<input class="input100" type="number" name="age" placeholder="Enter Your Age ">
+				</div>
+
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Phone</span>
+					<input class="input100" type="text" name="phone" placeholder="Enter Number Phone">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Occupation">
+					<span class="label-input100">Occupation *</span>
+					<input class="input100" type="text" name="age" placeholder="Enter Your Occupation">
+				</div>
+
+				<div class="wrap-input100 input100-select bg1 rs1-wrap-input100">
+					<span class="label-input100">Available Day *</span>
+					<div>
+						<select id="day" name="availabe_day">
+							<option selected disabled hidden>Choose here</option>
+							<option value="sunday">Sunday</option>
+							<option value="monday">Monday</option>
+							<option value="tuesday">Tuesday</option>
+							<option value="wednesday">Wednesday</option>
+							<option value="thursday">Thursday</option>
+							<option value="friday">Friday</option>
+							<option value="saturday">Saturday</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+					<div class="wrap-contact100-form-radio" style="padding: 0">
+						<span class="label-input100">Gender</span>
+
+						<div class="contact100-form-radio m-t-15" style="padding-top: 10px;">
+							<input class="input-radio100" id="radio1" type="radio" name="gender" value="male">
+							<label class="label-radio100" for="radio1">
+								Male
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio2" type="radio" name="gender" value="female">
+							<label class="label-radio100" for="radio2">
+								Female
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+					<div class="wrap-contact100-form-radio" style="padding: 0;">
+						<span class="label-input100">Do you have a vehicle?</span>
+
+						<div class="contact100-form-radio m-t-15" style="padding-top: 10px;">
+							<input class="input-radio100" id="radio3" type="radio" name="have-vehicle" value="yes">
+							<label class="label-radio100" for="radio3" >
+								Yes
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio4" type="radio" name="have-vehicle" value="no">
+							<label class="label-radio100" for="radio4">
+								No
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="container-contact100-form-btn  rs1-wrap-input100">
+					<button class="contact100-form-btn">
+						<span>
+							Submit
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
