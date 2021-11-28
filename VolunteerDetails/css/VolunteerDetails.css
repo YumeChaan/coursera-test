@@ -237,9 +237,9 @@ textarea.input100 {
 label{
   text-align: left;
   width: 70%;
-    /* border: 2px solid #fff;
-    border-radius: 5px; */
+  margin: 0%;
+  
     
-  font-size: 16px
+ 
 
 }
